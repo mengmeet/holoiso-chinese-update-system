@@ -1,4 +1,5 @@
 #!/bin/bash
+set -x
 
 # holo-gs-auto-update
 yay -Sy holo-gs-auto-update --noconfirm
