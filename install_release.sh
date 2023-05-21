@@ -1,4 +1,15 @@
 #!/bin/bash
+
+# holo-gs-auto-update
 yay -Sy holo-gs-auto-update --noconfirm
+if [[ "$?" == "0" ]]; then
+        yay_status=更新完毕else
+        yay_status=更新失败fi
+
+# decky
 curl -Lk https://github.com/SteamDeckHomebrew/decky-installer/releases/latest/download/install_release.sh | sed 's#prerelease == "false"#prerelease == "true"#' | sh
-zenity --warning --text="软件包：holo-gs-auto-update\n插件：decky\n已经更新完毕" --width=100 --height=100
+if [[ "$?" == "0" ]]; then
+        decky_status=更新完毕else
+        decky_status=更新失败fi
+
+zenity --warning --text="软件包：holo-gs-auto-update $yay_status \n插件：decky $decky_status \n全部更新脚本已执行完毕" --width=100 --height=100
