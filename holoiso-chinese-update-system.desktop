@@ -1,0 +1,21 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Comment[en_US]=
+Comment=
+Exec=bash -c "curl -Lk https://raw.gitmirror.com/mengmeet/holoiso-chinese-update-system/main/install_release.sh | sh"
+GenericName[en_US]=
+GenericName=
+Icon=preferences-desktop-gaming
+MimeType=
+Name[zh_CN]=手动更新系统
+Name[en_US]=holoiso-chinese-update-system
+Name=holoiso-chinese-update-system
+Path=/usr/bin
+StartupNotify=true
+Terminal=true
+TerminalOptions=
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=
+X-KDE-SubstituteUID=false
+X-KDE-Username=
