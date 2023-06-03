@@ -1,1 +1,0 @@
-`2023-06-04` [mesa-git-23.2.0_devel.172193.87ac5d7d0a1.d41d8cd98f00b204e9800998ecf8427e-1_bundle.tar.gz](https://github.com/mengmeet/holoiso-chinese-update-system/releases/download/mesa-git/mesa-git-23.2.0_devel.172193.87ac5d7d0a1.d41d8cd98f00b204e9800998ecf8427e-1_bundle.tar.gz)
