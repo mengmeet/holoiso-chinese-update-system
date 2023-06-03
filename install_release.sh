@@ -25,4 +25,4 @@ else
 	tomoon_status=更新失败
 fi
 
-zenity --warning --text="软件包：holo-gs-auto-update $yay_status \n插件：decky $decky_status \n插件软件：toomon $tomoon_status \n全部更新脚本已执行完毕" --width=100 --height=100
+zenity --warning --text="软件包：holo-gs-auto-update $yay_status \n插件主程序：decky $decky_status \n插件：toomon $tomoon_status \n全部更新脚本已执行完毕" --width=100 --height=100
